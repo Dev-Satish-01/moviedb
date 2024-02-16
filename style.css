@@ -1,0 +1,38 @@
+
+body {
+    font-family: Courier, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    background-color: black;
+}
+
+.card {
+    background-color: black;
+}
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie_item {
+    margin: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    max-width: 500px;
+}
+
+.title {
+    padding-top: 16px;
+}
+
+.movie_img {
+    border-radius: 3rem;
+}
+.movie_img:hover
+{
+    transform: scale(1.3,1.3);
+    transition: .3s transform;
+}
